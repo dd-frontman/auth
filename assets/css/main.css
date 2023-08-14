@@ -1,0 +1,41 @@
+@import "font-face.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*default size*/
+* {
+  font-size: 16px;
+}
+
+body {
+  user-select: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/*images*/
+.email {
+  background-image: url('assets/img/icons/email.svg');
+}
+
+.password {
+  background-image: url('assets/img/icons/password.svg');
+}
+
+.username {
+  background-image: url('assets/img/icons/username.svg');
+}
+
+/*other*/
+.disabled {
+  background: #71717A;
+}
