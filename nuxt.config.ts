@@ -1,11 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import { fileURLToPath } from "url";
-
 export default defineNuxtConfig({
-  alias: {
-    images: fileURLToPath(new URL("~/assets/img", import.meta.url)),
-    style: fileURLToPath(new URL("~/assets/scc", import.meta.url)),
-  },
   devtools: { enabled: true },
   ssr: true,
   nitro: {
@@ -15,7 +9,7 @@ export default defineNuxtConfig({
   },
   app: {
     baseURL: "/auth/",
-    buildAssetsDir: "/_nuxt/",
+    buildAssetsDir: "assets",
   },
   modules: [
     [

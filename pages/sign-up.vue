@@ -39,7 +39,7 @@
       >
         SIGN UP
       </CustomBtn>
-      <p class="text-center">
+      <p class="text-center text-base text-regal-gray">
         You have account?
         <NuxtLink to="/" class="font-bold text-regal-light-blue"
           >Login now

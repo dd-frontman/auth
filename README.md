@@ -1,63 +1,27 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 auth app with TS & Tailwind CSS
+![preview](./assets/img/preview.png "auth")
+**[Ссылка на приложение/Link on app](https://den-dev97.github.io/auth/ "auth app")**
+*** 
+* Приложение имеет 3 страницы - index / sign-up / otp.
+* Запросы к апи осуществляются на https://dummyjson.com/auth/login.
+* На странице Signup при введенных данных и попытке смены роута приложение не пускает на страницу login’a, задает вопрос пользователю, что все данные могут быть потеряны.
+* На странице OTP отображается введенный ранее email при нажатии на change Email возвращаемся на предыдущую страницу.
+* Состояние формы реализовано на Pinia.
+* При наведении на правую часть экрана - картинка немного отклоняется от текущего положения.
+* При введении OTP автоматически переключается input.
+* В приложении используется модульный подход, картинки оптимизированы
+***
+* The application consists of 3 pages - index / sign-up / otp.
+* API requests are made to https://dummyjson.com/auth/login.
+* On the Signup page, when data is entered and there's an attempt to change the route, the application prevents navigation to the login page, prompting the user that all data may be lost.
+* On the OTP page, the previously entered email is displayed. Clicking on "change Email" returns the user to the previous page.
+* The form state is implemented using Pinia.
+* When hovering over the right side of the screen, the image slightly deviates from its current position.
+* When entering the OTP, the input field automatically switches.
+* The application utilizes a modular approach, and images are optimized.
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+---
 
-## Setup
 
-Make sure to install the dependencies:
 
-```bash
-# npm
-npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
