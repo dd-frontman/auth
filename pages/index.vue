@@ -45,7 +45,7 @@ import CustomInput from "@/components/custom-input.vue";
 import CustomBtn from "@/components/custom-btn.vue";
 import useValidation from "@/composables/useValidation";
 import userData from "@/interfaces/userData";
-import loginGroup from "@/assets/img/login-group.png";
+import loginGroup from "~/assets/img/login-group.png";
 
 const router = useRouter();
 const { setUserData } = useAuthStore();
