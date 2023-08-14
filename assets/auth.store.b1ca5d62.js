@@ -1,0 +1,1 @@
+import{Z as s,r,n as u}from"./entry.9cdb7c6d.js";const c=s("auth",()=>{const e=r({}),t=u(()=>"token"in e.value&&e.value.token!=="");function o(n){e.value=n}return{user:e,isLoggedIn:t,setUserData:o}});export{c as u};
