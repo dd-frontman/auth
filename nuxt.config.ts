@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     },
   },
   app: {
-    baseURL: "/auth/",
+    baseURL: "/",
   },
   modules: [
     [
