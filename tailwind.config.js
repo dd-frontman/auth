@@ -30,7 +30,7 @@ module.exports = {
         ],
       },
       backgroundImage: {
-        "right-ellipse": "url('/assets/img/right-side-ellipse.png')",
+        "right-ellipse": "url('~/assets/img/right-side-ellipse.png')",
       },
       colors: {
         "regal-blue": "#6172F3",
