@@ -49,12 +49,12 @@
   </Default>
 </template>
 <script setup lang="ts">
-import Default from "../layouts/default.vue";
-import CustomInput from "../components/custom-input.vue";
-import CustomCheckbox from "../components/custom-checkbox.vue";
-import CustomPassword from "../components/custom-password.vue";
-import CustomBtn from "../components/custom-btn.vue";
-import signUpGroup from "/assets/img/signup-group.png";
+import Default from "@/layouts/default.vue";
+import CustomInput from "@/components/custom-input.vue";
+import CustomCheckbox from "@/components/custom-checkbox.vue";
+import CustomPassword from "@/components/custom-password.vue";
+import CustomBtn from "@/components/custom-btn.vue";
+import signUpGroup from "@/assets/img/signup-group.png";
 import { ref, computed } from "vue";
 import { useRouter } from "vue-router";
 import userData from "~/interfaces/userData";

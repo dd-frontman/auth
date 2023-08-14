@@ -17,8 +17,8 @@
 
 <script setup lang="ts">
 import { ref, computed, toRefs } from "vue";
-import eye from "/assets/img/icons/eye.svg";
-import eyeSlash from "/assets/img/icons/eye-slash.svg";
+import eye from "@/assets/img/icons/eye.svg";
+import eyeSlash from "@/assets/img/icons/eye-slash.svg";
 
 const props = defineProps({
   modelValue: [String, Number],

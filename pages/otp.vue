@@ -29,11 +29,11 @@
 </template>
 
 <script setup lang="ts">
-import Default from "../layouts/default.vue";
-import CustomInput from "../components/custom-input.vue";
-import CustomBtn from "../components/custom-btn.vue";
-import useValidation from "../composables/useValidation";
-import otpGroup from "/assets/img/otp-group.png";
+import Default from "@/layouts/default.vue";
+import CustomInput from "@/components/custom-input.vue";
+import CustomBtn from "@/components/custom-btn.vue";
+import useValidation from "@/composables/useValidation";
+import otpGroup from "@/assets/img/otp-group.png";
 import { ref } from "vue";
 
 definePageMeta({

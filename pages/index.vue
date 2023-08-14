@@ -28,7 +28,7 @@
       >
         log in
       </CustomBtn>
-      <p class="text-center text-base">
+      <p class="text-center text-base text-regal-gray">
         Don’t have account?
         <NuxtLink to="/sign-up" class="font-bold text-regal-light-blue"
           >Create an account
@@ -40,12 +40,12 @@
 
 <script setup lang="ts">
 import { useAuthStore } from "~/store/auth.store";
-import Default from "../layouts/default.vue";
-import CustomInput from "../components/custom-input.vue";
-import CustomBtn from "../components/custom-btn.vue";
-import useValidation from "../composables/useValidation";
+import Default from "@/layouts/default.vue";
+import CustomInput from "@/components/custom-input.vue";
+import CustomBtn from "@/components/custom-btn.vue";
+import useValidation from "@/composables/useValidation";
 import userData from "@/interfaces/userData";
-import loginGroup from "/assets/img/login-group.png";
+import loginGroup from "@/assets/img/login-group.png";
 
 const router = useRouter();
 const { setUserData } = useAuthStore();
