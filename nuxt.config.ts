@@ -1,12 +1,17 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: [[
-    '@pinia/nuxt',
-    {
-      autoImports: ['defineStore','acceptHMRUpdate']
-    }
-  ]],
+  app: {
+    baseURL: "/auth/",
+  },
+  modules: [
+    [
+      "@pinia/nuxt",
+      {
+        autoImports: ["defineStore", "acceptHMRUpdate"],
+      },
+    ],
+  ],
   // @ts-ignore
   postcss: {
     plugins: {
@@ -14,17 +19,15 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  css: [
-    '@/assets/css/main.css',
-  ],
+  css: ["@/assets/css/main.css"],
   imports: {
-    autoImport: true
+    autoImport: true,
   },
   vite: {
     server: {
       fs: {
-        strict: false
-      }
-    }
+        strict: false,
+      },
+    },
   },
-})
+});
