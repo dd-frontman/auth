@@ -38,6 +38,7 @@ import { ref } from "vue";
 
 definePageMeta({
   middleware: "check-otp-access",
+  prerender: false,
 });
 
 const OTP_LENGTH = 6;
