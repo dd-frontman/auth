@@ -1,6 +1,6 @@
 # Nuxt 3 auth app with TS & Tailwind CSS
 ![preview](./assets/img/preview.png "auth")
-**[Ссылка на приложение/Link on app](https://den-dev97.github.io/auth/ "auth app")**
+**[Ссылка на приложение/Link on app](https://dd-frontman.github.io/auth/ "auth app")**
 *** 
 * Приложение имеет 3 страницы - index / sign-up / otp.
 * Запросы к апи осуществляются на https://dummyjson.com/auth/login.
